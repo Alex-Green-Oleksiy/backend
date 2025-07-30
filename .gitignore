@@ -84,4 +84,7 @@ public
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# Documentation files
+*.md 
