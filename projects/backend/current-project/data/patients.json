@@ -1,0 +1,710 @@
+[
+  {
+    "id": "p001",
+    "fullName": "Іван Петренко11",
+    "birthDate": "1985-03-15",
+    "gender": "male",
+    "phone": "+380501234567",
+    "email": "ivan@example.com",
+    "address": "м. Київ, вул. Шевченка, 12",
+    "notes": "Алергія на пеніцилін"
+  },
+  {
+    "id": "p003",
+    "fullName": "Марія Коваль",
+    "birthDate": "1978-01-12",
+    "gender": "female",
+    "phone": "+380674448899",
+    "email": "m.koval@gmail.com",
+    "address": "м. Харків, пр-т Науки, 22",
+    "notes": "Підвищений тиск"
+  },
+  {
+    "id": "p004",
+    "fullName": "Сергій Іваненко",
+    "birthDate": "1982-08-30",
+    "gender": "male",
+    "phone": "+380631234567",
+    "email": "serg@meta.ua",
+    "address": "м. Одеса, вул. Дерибасівська, 1",
+    "notes": ""
+  },
+  {
+    "id": "p005",
+    "fullName": "Андрій Соловей",
+    "birthDate": "1995-05-05",
+    "gender": "male",
+    "phone": "+380991234567",
+    "email": "a.solovey@mail.com",
+    "address": "м. Дніпро, вул. Грушевського, 14",
+    "notes": ""
+  },
+  {
+    "id": "p006",
+    "fullName": "Тетяна Кравчук",
+    "birthDate": "1988-02-17",
+    "gender": "female",
+    "phone": "+380951234567",
+    "email": "t.kravchuk@ukr.net",
+    "address": "м. Ужгород, вул. Корятовича, 3",
+    "notes": ""
+  },
+  {
+    "id": "p007",
+    "fullName": "Олег Козак",
+    "birthDate": "1975-11-09",
+    "gender": "male",
+    "phone": "+380661234567",
+    "email": "kozak.oleg@gmail.com",
+    "address": "м. Вінниця, вул. Лесі Українки, 9",
+    "notes": "Цукровий діабет"
+  },
+  {
+    "id": "p008",
+    "fullName": "Юлія Зайцева",
+    "birthDate": "1993-03-03",
+    "gender": "female",
+    "phone": "+380671112233",
+    "email": "zaitseva.yul@gmail.com",
+    "address": "м. Луцьк, вул. Словацького, 2",
+    "notes": ""
+  },
+  {
+    "id": "p009",
+    "fullName": "Ірина Білик",
+    "birthDate": "1984-12-01",
+    "gender": "female",
+    "phone": "+380939999999",
+    "email": "ibilyk@gmail.com",
+    "address": "м. Полтава, вул. Пушкіна, 10",
+    "notes": ""
+  },
+  {
+    "id": "p010",
+    "fullName": "Михайло Ворон",
+    "birthDate": "1970-07-19",
+    "gender": "male",
+    "phone": "+380501112233",
+    "email": "voron.mykhailo@ua.fm",
+    "address": "м. Чернівці, вул. Руська, 15",
+    "notes": "Хронічний бронхіт"
+  },
+  {
+    "id": "p011",
+    "fullName": "Леся Сич",
+    "birthDate": "1992-09-14",
+    "gender": "female",
+    "phone": "+380681234567",
+    "email": "lesia.sych@i.ua",
+    "address": "м. Кропивницький, вул. Волкова, 7",
+    "notes": ""
+  },
+  {
+    "id": "p012",
+    "fullName": "Олександр Бойко",
+    "birthDate": "1987-04-25",
+    "gender": "male",
+    "phone": "+380991112233",
+    "email": "sasha.boyko@gmail.com",
+    "address": "м. Суми, вул. Соборна, 20",
+    "notes": ""
+  },
+  {
+    "id": "p013",
+    "fullName": "Наталя Дяченко",
+    "birthDate": "1980-01-01",
+    "gender": "female",
+    "phone": "+380931111111",
+    "email": "dyachenko.n@ukr.net",
+    "address": "м. Житомир, вул. Перемоги, 5",
+    "notes": ""
+  },
+  {
+    "id": "p014",
+    "fullName": "Юрій Мельник",
+    "birthDate": "1969-10-10",
+    "gender": "male",
+    "phone": "+380671111222",
+    "email": "melnyk.yura@gmail.com",
+    "address": "м. Рівне, вул. Київська, 17",
+    "notes": ""
+  },
+  {
+    "id": "p015",
+    "fullName": "Світлана Орел",
+    "birthDate": "1998-12-31",
+    "gender": "female",
+    "phone": "+380503456789",
+    "email": "orel.svitlana@meta.ua",
+    "address": "м. Івано-Франківськ, вул. Незалежності, 99",
+    "notes": ""
+  },
+  {
+    "id": "p016",
+    "fullName": "Василь Мазур",
+    "birthDate": "1972-05-23",
+    "gender": "male",
+    "phone": "+380932223344",
+    "email": "vasyl.mazur@mail.com",
+    "address": "м. Тернопіль, вул. Бандери, 6",
+    "notes": ""
+  },
+  {
+    "id": "p017",
+    "fullName": "Галина Кушнір",
+    "birthDate": "1983-03-11",
+    "gender": "female",
+    "phone": "+380683333444",
+    "email": "g.kushnir@ukr.net",
+    "address": "м. Черкаси, вул. Смілянська, 4",
+    "notes": ""
+  },
+  {
+    "id": "p018",
+    "fullName": "Руслан Демчук",
+    "birthDate": "1994-07-07",
+    "gender": "male",
+    "phone": "+380932112233",
+    "email": "r.demchuk@gmail.com",
+    "address": "м. Миколаїв, вул. Центральна, 11",
+    "notes": ""
+  },
+  {
+    "id": "p019",
+    "fullName": "Інна Ковтун",
+    "birthDate": "1976-06-16",
+    "gender": "female",
+    "phone": "+380671122334",
+    "email": "inna.kovtun@i.ua",
+    "address": "м. Херсон, вул. Перекопська, 8",
+    "notes": ""
+  },
+  {
+    "id": "p020",
+    "fullName": "Артур Ільченко",
+    "birthDate": "1991-11-11",
+    "gender": "male",
+    "phone": "+380951234321",
+    "email": "a.ilchenko@ukr.net",
+    "address": "м. Запоріжжя, вул. Гагаріна, 1",
+    "notes": ""
+  },
+  {
+    "id": "913edf00-f56c-4b9d-a5bf-de3f617ab257",
+    "fullName": "ффівфів",
+    "birthDate": "2025-07-19",
+    "gender": "male",
+    "phone": "23425464575467",
+    "email": "dfgdfgdfg111@ukr.net",
+    "address": "іваіваіваіп",
+    "notes": "івпів"
+  },
+  {
+    "id": "male_001",
+    "fullName": "Віктор Шевченко",
+    "birthDate": "1974-01-15",
+    "gender": "male",
+    "phone": "+380501234001",
+    "email": "v.shevchenko@gmail.com",
+    "address": "м. Київ, вул. Хрещатик, 1",
+    "notes": "Гіпертонія"
+  },
+  {
+    "id": "male_002",
+    "fullName": "Петро Коваленко",
+    "birthDate": "1974-02-20",
+    "gender": "male",
+    "phone": "+380501234002",
+    "email": "p.kovalenko@ukr.net",
+    "address": "м. Львів, вул. Сихівська, 15",
+    "notes": ""
+  },
+  {
+    "id": "male_003",
+    "fullName": "Микола Іваненко",
+    "birthDate": "1974-03-10",
+    "gender": "male",
+    "phone": "+380501234003",
+    "email": "m.ivanenko@mail.com",
+    "address": "м. Харків, вул. Сумська, 25",
+    "notes": "Алергія на пил"
+  },
+  {
+    "id": "male_004",
+    "fullName": "Анатолій Петренко",
+    "birthDate": "1974-04-05",
+    "gender": "male",
+    "phone": "+380501234004",
+    "email": "a.petrenko@gmail.com",
+    "address": "м. Одеса, вул. Приморська, 8",
+    "notes": ""
+  },
+  {
+    "id": "male_005",
+    "fullName": "Володимир Сидоренко",
+    "birthDate": "1974-05-12",
+    "gender": "male",
+    "phone": "+380501234005",
+    "email": "v.sydorenko@ukr.net",
+    "address": "м. Дніпро, вул. Набережна, 12",
+    "notes": "Цукровий діабет"
+  },
+  {
+    "id": "male_006",
+    "fullName": "Сергій Павленко",
+    "birthDate": "1974-06-18",
+    "gender": "male",
+    "phone": "+380501234006",
+    "email": "s.pavlenko@mail.com",
+    "address": "м. Запоріжжя, вул. Соборна, 30",
+    "notes": ""
+  },
+  {
+    "id": "male_007",
+    "fullName": "Ігор Марченко",
+    "birthDate": "1974-07-22",
+    "gender": "male",
+    "phone": "+380501234007",
+    "email": "i.marchenko@gmail.com",
+    "address": "м. Полтава, вул. Європейська, 45",
+    "notes": "Хронічний гастрит"
+  },
+  {
+    "id": "male_008",
+    "fullName": "Юрій Ткаченко",
+    "birthDate": "1974-08-30",
+    "gender": "male",
+    "phone": "+380501234008",
+    "email": "y.tkachenko@ukr.net",
+    "address": "м. Суми, вул. Петропавлівська, 18",
+    "notes": ""
+  },
+  {
+    "id": "male_009",
+    "fullName": "Олександр Романенко",
+    "birthDate": "1974-09-14",
+    "gender": "male",
+    "phone": "+380501234009",
+    "email": "o.romanenko@mail.com",
+    "address": "м. Черкаси, вул. Байди Вишневецького, 22",
+    "notes": "Підвищений холестерин"
+  },
+  {
+    "id": "male_010",
+    "fullName": "Василь Луценко",
+    "birthDate": "1974-10-08",
+    "gender": "male",
+    "phone": "+380501234010",
+    "email": "v.lutsenko@gmail.com",
+    "address": "м. Житомир, вул. Київська, 33",
+    "notes": ""
+  },
+  {
+    "id": "male_011",
+    "fullName": "Борис Кравченко",
+    "birthDate": "1974-11-25",
+    "gender": "male",
+    "phone": "+380501234011",
+    "email": "b.kravchenko@ukr.net",
+    "address": "м. Вінниця, вул. Соборна, 7",
+    "notes": "Астма"
+  },
+  {
+    "id": "male_012",
+    "fullName": "Геннадій Бондаренко",
+    "birthDate": "1974-12-03",
+    "gender": "male",
+    "phone": "+380501234012",
+    "email": "h.bondarenko@mail.com",
+    "address": "м. Херсон, вул. Ушакова, 14",
+    "notes": ""
+  },
+  {
+    "id": "male_013",
+    "fullName": "Леонід Мороз",
+    "birthDate": "1974-01-07",
+    "gender": "male",
+    "phone": "+380501234013",
+    "email": "l.moroz@gmail.com",
+    "address": "м. Чернівці, вул. Головна, 9",
+    "notes": "Хронічний бронхіт"
+  },
+  {
+    "id": "male_014",
+    "fullName": "Віталій Лисенко",
+    "birthDate": "1974-02-11",
+    "gender": "male",
+    "phone": "+380501234014",
+    "email": "v.lysenko@ukr.net",
+    "address": "м. Тернопіль, вул. Руська, 16",
+    "notes": ""
+  },
+  {
+    "id": "male_015",
+    "fullName": "Дмитро Гончаренко",
+    "birthDate": "1974-03-19",
+    "gender": "male",
+    "phone": "+380501234015",
+    "email": "d.honcharenko@mail.com",
+    "address": "м. Івано-Франківськ, вул. Незалежності, 28",
+    "notes": "Гіпертонія"
+  },
+  {
+    "id": "male_016",
+    "fullName": "Роман Шаповал",
+    "birthDate": "1974-04-26",
+    "gender": "male",
+    "phone": "+380501234016",
+    "email": "r.shapoval@gmail.com",
+    "address": "м. Луцьк, вул. Лесі Українки, 11",
+    "notes": ""
+  },
+  {
+    "id": "male_017",
+    "fullName": "Андрій Ковальчук",
+    "birthDate": "1974-05-02",
+    "gender": "male",
+    "phone": "+380501234017",
+    "email": "a.kovalchuk@ukr.net",
+    "address": "м. Рівне, вул. Соборна, 5",
+    "notes": "Цукровий діабет"
+  },
+  {
+    "id": "male_018",
+    "fullName": "Сергій Міщенко",
+    "birthDate": "1974-06-09",
+    "gender": "male",
+    "phone": "+380501234018",
+    "email": "s.mishchenko@mail.com",
+    "address": "м. Кропивницький, вул. Велика Перспективна, 20",
+    "notes": ""
+  },
+  {
+    "id": "male_019",
+    "fullName": "Віктор Захарченко",
+    "birthDate": "1974-07-16",
+    "gender": "male",
+    "phone": "+380501234019",
+    "email": "v.zakharchenko@gmail.com",
+    "address": "м. Миколаїв, вул. Адміральська, 13",
+    "notes": "Алергія на мед"
+  },
+  {
+    "id": "male_020",
+    "fullName": "Петро Тарасенко",
+    "birthDate": "1974-08-23",
+    "gender": "male",
+    "phone": "+380501234020",
+    "email": "p.tarasenko@ukr.net",
+    "address": "м. Кременчук, вул. Перемоги, 25",
+    "notes": ""
+  },
+  {
+    "id": "male_021",
+    "fullName": "Микола Литвиненко",
+    "birthDate": "1974-09-30",
+    "gender": "male",
+    "phone": "+380501234021",
+    "email": "m.lytvynenko@mail.com",
+    "address": "м. Біла Церква, вул. Соборна, 8",
+    "notes": "Хронічний гастрит"
+  },
+  {
+    "id": "male_022",
+    "fullName": "Анатолій Кравчук",
+    "birthDate": "1974-10-07",
+    "gender": "male",
+    "phone": "+380501234022",
+    "email": "a.kravchuk@gmail.com",
+    "address": "м. Бердянськ, вул. Центральна, 17",
+    "notes": ""
+  },
+  {
+    "id": "male_023",
+    "fullName": "Володимир Олійник",
+    "birthDate": "1974-11-14",
+    "gender": "male",
+    "phone": "+380501234023",
+    "email": "v.oliynyk@ukr.net",
+    "address": "м. Нікополь, вул. Дніпровська, 12",
+    "notes": "Підвищений тиск"
+  },
+  {
+    "id": "male_024",
+    "fullName": "Сергій Семенченко",
+    "birthDate": "1974-12-21",
+    "gender": "male",
+    "phone": "+380501234024",
+    "email": "s.semenchenko@mail.com",
+    "address": "м. Слов'янськ, вул. Шевченка, 30",
+    "notes": ""
+  },
+  {
+    "id": "male_025",
+    "fullName": "Ігор Пономаренко",
+    "birthDate": "1974-01-28",
+    "gender": "male",
+    "phone": "+380501234025",
+    "email": "i.ponomarenko@gmail.com",
+    "address": "м. Краматорськ, вул. Майдан Миру, 15",
+    "notes": "Астма"
+  },
+  {
+    "id": "male_026",
+    "fullName": "Юрій Маслюк",
+    "birthDate": "1974-02-04",
+    "gender": "male",
+    "phone": "+380501234026",
+    "email": "y.masliuk@ukr.net",
+    "address": "м. Горлівка, вул. Леніна, 22",
+    "notes": ""
+  },
+  {
+    "id": "male_027",
+    "fullName": "Олександр Грищенко",
+    "birthDate": "1974-03-11",
+    "gender": "male",
+    "phone": "+380501234027",
+    "email": "o.hryshchenko@mail.com",
+    "address": "м. Макіївка, вул. Центральна, 9",
+    "notes": "Хронічний бронхіт"
+  },
+  {
+    "id": "male_028",
+    "fullName": "Василь Кучеренко",
+    "birthDate": "1974-04-18",
+    "gender": "male",
+    "phone": "+380501234028",
+    "email": "v.kucherenko@gmail.com",
+    "address": "м. Маріуполь, вул. Миру, 33",
+    "notes": ""
+  },
+  {
+    "id": "male_029",
+    "fullName": "Борис Демченко",
+    "birthDate": "1974-05-25",
+    "gender": "male",
+    "phone": "+380501234029",
+    "email": "b.demchenko@ukr.net",
+    "address": "м. Луганськ, вул. Радянська, 18",
+    "notes": "Гіпертонія"
+  },
+  {
+    "id": "male_030",
+    "fullName": "Геннадій Тимченко",
+    "birthDate": "1974-06-01",
+    "gender": "male",
+    "phone": "+380501234030",
+    "email": "h.tymchenko@mail.com",
+    "address": "м. Севастополь, вул. Леніна, 7",
+    "notes": ""
+  },
+  {
+    "id": "male_031",
+    "fullName": "Леонід Ковальов",
+    "birthDate": "1974-07-08",
+    "gender": "male",
+    "phone": "+380501234031",
+    "email": "l.kovaliov@gmail.com",
+    "address": "м. Сімферополь, вул. Київська, 25",
+    "notes": "Цукровий діабет"
+  },
+  {
+    "id": "male_032",
+    "fullName": "Віталій Мальцев",
+    "birthDate": "1974-08-15",
+    "gender": "male",
+    "phone": "+380501234032",
+    "email": "v.maltsev@ukr.net",
+    "address": "м. Керч, вул. Леніна, 12",
+    "notes": ""
+  },
+  {
+    "id": "male_033",
+    "fullName": "Дмитро Соколов",
+    "birthDate": "1974-09-22",
+    "gender": "male",
+    "phone": "+380501234033",
+    "email": "d.sokolov@mail.com",
+    "address": "м. Євпаторія, вул. Революції, 16",
+    "notes": "Алергія на пил"
+  },
+  {
+    "id": "male_034",
+    "fullName": "Роман Новиков",
+    "birthDate": "1974-10-29",
+    "gender": "male",
+    "phone": "+380501234034",
+    "email": "r.novikov@gmail.com",
+    "address": "м. Ялта, вул. Московська, 8",
+    "notes": ""
+  },
+  {
+    "id": "male_035",
+    "fullName": "Андрій Воронов",
+    "birthDate": "1974-11-05",
+    "gender": "male",
+    "phone": "+380501234035",
+    "email": "a.voronov@ukr.net",
+    "address": "м. Феодосія, вул. Генерала Горбачова, 20",
+    "notes": "Хронічний гастрит"
+  },
+  {
+    "id": "male_036",
+    "fullName": "Сергій Лебедєв",
+    "birthDate": "1974-12-12",
+    "gender": "male",
+    "phone": "+380501234036",
+    "email": "s.lebedev@mail.com",
+    "address": "м. Алушта, вул. Леніна, 14",
+    "notes": ""
+  },
+  {
+    "id": "male_037",
+    "fullName": "Віктор Козлов",
+    "birthDate": "1974-01-19",
+    "gender": "male",
+    "phone": "+380501234037",
+    "email": "v.kozlov@gmail.com",
+    "address": "м. Судак, вул. Леніна, 6",
+    "notes": "Підвищений тиск"
+  },
+  {
+    "id": "male_038",
+    "fullName": "Петро Морозов",
+    "birthDate": "1974-02-26",
+    "gender": "male",
+    "phone": "+380501234038",
+    "email": "p.morozov@ukr.net",
+    "address": "м. Алупка, вул. Леніна, 10",
+    "notes": ""
+  },
+  {
+    "id": "male_039",
+    "fullName": "Микола Волков",
+    "birthDate": "1974-03-05",
+    "gender": "male",
+    "phone": "+380501234039",
+    "email": "m.volkov@mail.com",
+    "address": "м. Бахчисарай, вул. Леніна, 18",
+    "notes": "Астма"
+  },
+  {
+    "id": "male_040",
+    "fullName": "Анатолій Соловйов",
+    "birthDate": "1974-04-12",
+    "gender": "male",
+    "phone": "+380501234040",
+    "email": "a.soloviov@gmail.com",
+    "address": "м. Старий Крим, вул. Леніна, 4",
+    "notes": ""
+  },
+  {
+    "id": "male_041",
+    "fullName": "Володимир Васильєв",
+    "birthDate": "1974-05-19",
+    "gender": "male",
+    "phone": "+380501234041",
+    "email": "v.vasiliev@ukr.net",
+    "address": "м. Білогірськ, вул. Леніна, 12",
+    "notes": "Хронічний бронхіт"
+  },
+  {
+    "id": "male_042",
+    "fullName": "Сергій Зайцев",
+    "birthDate": "1974-06-26",
+    "gender": "male",
+    "phone": "+380501234042",
+    "email": "s.zaitsev@mail.com",
+    "address": "м. Джанкой, вул. Леніна, 16",
+    "notes": ""
+  },
+  {
+    "id": "male_043",
+    "fullName": "Ігор Павлов",
+    "birthDate": "1974-07-03",
+    "gender": "male",
+    "phone": "+380501234043",
+    "email": "i.pavlov@gmail.com",
+    "address": "м. Красноперекопськ, вул. Леніна, 8",
+    "notes": "Гіпертонія"
+  },
+  {
+    "id": "male_044",
+    "fullName": "Юрій Семенов",
+    "birthDate": "1974-08-10",
+    "gender": "male",
+    "phone": "+380501234044",
+    "email": "y.semenov@ukr.net",
+    "address": "м. Армянськ, вул. Леніна, 22",
+    "notes": ""
+  },
+  {
+    "id": "male_045",
+    "fullName": "Олександр Голубєв",
+    "birthDate": "1974-09-17",
+    "gender": "male",
+    "phone": "+380501234045",
+    "email": "o.golubev@mail.com",
+    "address": "м. Щолкіне, вул. Леніна, 14",
+    "notes": "Цукровий діабет"
+  },
+  {
+    "id": "male_046",
+    "fullName": "Василь Виноградов",
+    "birthDate": "1974-10-24",
+    "gender": "male",
+    "phone": "+380501234046",
+    "email": "v.vinogradov@gmail.com",
+    "address": "м. Саки, вул. Леніна, 20",
+    "notes": ""
+  },
+  {
+    "id": "male_047",
+    "fullName": "Борис Бєлов",
+    "birthDate": "1974-11-01",
+    "gender": "male",
+    "phone": "+380501234047",
+    "email": "b.belov@ukr.net",
+    "address": "м. Красногвардійське, вул. Леніна, 6",
+    "notes": "Алергія на пил"
+  },
+  {
+    "id": "male_048",
+    "fullName": "Геннадій Комаров",
+    "birthDate": "1974-12-08",
+    "gender": "male",
+    "phone": "+380501234048",
+    "email": "h.komarov@mail.com",
+    "address": "м. Первомайське, вул. Леніна, 18",
+    "notes": ""
+  },
+  {
+    "id": "male_049",
+    "fullName": "Леонід Орлов",
+    "birthDate": "1974-01-15",
+    "gender": "male",
+    "phone": "+380501234049",
+    "email": "l.orlov@gmail.com",
+    "address": "м. Роздольне, вул. Леніна, 10",
+    "notes": "Хронічний гастрит"
+  },
+  {
+    "id": "male_050",
+    "fullName": "Віталій Лебедєв",
+    "birthDate": "1974-02-22",
+    "gender": "male",
+    "phone": "+380501234050",
+    "email": "v.lebedev@ukr.net",
+    "address": "м. Нижньогірський, вул. Леніна, 12",
+    "notes": ""
+  },
+  {
+    "id": "66a6789d-0357-4874-8d98-0476813bc44f",
+    "fullName": "�������� �������",
+    "birthDate": "1990-01-01",
+    "gender": "male",
+    "phone": "+380501234567",
+    "email": "test@example.com"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "d001",
+    "fullName": "Олена Ковальчук",
+    "specialty": "Терапевт",
+    "email": "olena.kov@example.com",
+    "phone": "+380501112233",
+    "room": "101",
+    "notes": "Працює з 09:00 до 15:00"
+  },
+  {
+    "id": "d002",
+    "fullName": "Микола Сидоренко",
+    "specialty": "Кардіолог",
+    "email": "mykola.syd@med.com",
+    "phone": "+380631234567",
+    "room": "202",
+    "notes": "Кардіоогляд по понеділках"
+  },
+  {
+    "id": "d003",
+    "fullName": "Анна Дорошенко",
+    "specialty": "Дерматолог",
+    "email": "anna.doro@gmail.com",
+    "phone": "+380673334455",
+    "room": "303",
+    "notes": ""
+  },
+  {
+    "id": "d004",
+    "fullName": "Ігор Лисенко",
+    "specialty": "Ортопед",
+    "email": "lys.igor@hospital.ua",
+    "phone": "+380931122334",
+    "room": "104",
+    "notes": ""
+  },
+  {
+    "id": "d005",
+    "fullName": "Світлана Гончар",
+    "specialty": "Невролог",
+    "email": "svit.gonchar@gmail.com",
+    "phone": "+380682223344",
+    "room": "105",
+    "notes": ""
+  },
+  {
+    "id": "d868f062-6d09-43eb-9335-9c8c7f81db77",
+    "fullName": "Баба Галя",
+    "specialty": "широкого профілю",
+    "room": "22",
+    "email": "ivan@example.com",
+    "phone": "333",
+    "notes": "33"
+  },
+  {
+    "id": "d006",
+    "fullName": "Віктор Петренко",
+    "specialty": "Хірург",
+    "email": "v.petrenko@med.com",
+    "phone": "+380501234006",
+    "room": "106",
+    "notes": "Планові операції по вівторках"
+  },
+  {
+    "id": "d007",
+    "fullName": "Марія Іваненко",
+    "specialty": "Педіатр",
+    "email": "m.ivanenko@hospital.ua",
+    "phone": "+380501234007",
+    "room": "107",
+    "notes": "Прийом дітей до 14 років"
+  },
+  {
+    "id": "d008",
+    "fullName": "Андрій Шевченко",
+    "specialty": "Офтальмолог",
+    "email": "a.shevchenko@gmail.com",
+    "phone": "+380501234008",
+    "room": "108",
+    "notes": "Діагностика зору"
+  },
+  {
+    "id": "d009",
+    "fullName": "Тетяна Бондаренко",
+    "specialty": "Гінеколог",
+    "email": "t.bondarenko@med.com",
+    "phone": "+380501234009",
+    "room": "109",
+    "notes": "Жіночі консультації"
+  },
+  {
+    "id": "d010",
+    "fullName": "Сергій Мороз",
+    "specialty": "Уролог",
+    "email": "s.moroz@hospital.ua",
+    "phone": "+380501234010",
+    "room": "110",
+    "notes": "Урологічні консультації"
+  },
+  {
+    "id": "d011",
+    "fullName": "Людмила Кравченко",
+    "specialty": "Ендокринолог",
+    "email": "l.kravchenko@gmail.com",
+    "phone": "+380501234011",
+    "room": "111",
+    "notes": "Діабетологія"
+  },
+  {
+    "id": "d012",
+    "fullName": "Василь Ткаченко",
+    "specialty": "Пульмонолог",
+    "email": "v.tkachenko@med.com",
+    "phone": "+380501234012",
+    "room": "112",
+    "notes": "Захворювання легень"
+  },
+  {
+    "id": "d013",
+    "fullName": "Наталія Романенко",
+    "specialty": "Алерголог",
+    "email": "n.romanenko@hospital.ua",
+    "phone": "+380501234013",
+    "room": "113",
+    "notes": "Алергічні реакції"
+  },
+  {
+    "id": "d014",
+    "fullName": "Олександр Міщенко",
+    "specialty": "Гастроентеролог",
+    "email": "o.mishchenko@gmail.com",
+    "phone": "+380501234014",
+    "room": "114",
+    "notes": "Захворювання ЖКТ"
+  },
+  {
+    "id": "d015",
+    "fullName": "Ірина Семененко",
+    "specialty": "Ревматолог",
+    "email": "i.semenenko@med.com",
+    "phone": "+380501234015",
+    "room": "115",
+    "notes": "Ревматичні захворювання"
+  },
+  {
+    "id": "d016",
+    "fullName": "Дмитро Коваленко",
+    "specialty": "Онколог",
+    "email": "d.kovalenko@hospital.ua",
+    "phone": "+380501234016",
+    "room": "116",
+    "notes": "Онкологічні консультації"
+  },
+  {
+    "id": "d017",
+    "fullName": "Юлія Мельник",
+    "specialty": "Психіатр",
+    "email": "y.melnyk@gmail.com",
+    "phone": "+380501234017",
+    "room": "117",
+    "notes": "Психіатричні консультації"
+  },
+  {
+    "id": "d018",
+    "fullName": "Роман Павленко",
+    "specialty": "Травматолог",
+    "email": "r.pavlenko@med.com",
+    "phone": "+380501234018",
+    "room": "118",
+    "notes": "Травматологія та ортопедія"
+  },
+  {
+    "id": "d019",
+    "fullName": "Оксана Захаренко",
+    "specialty": "Інфекціоніст",
+    "email": "o.zakharenko@hospital.ua",
+    "phone": "+380501234019",
+    "room": "119",
+    "notes": "Інфекційні захворювання"
+  },
+  {
+    "id": "d020",
+    "fullName": "Віталій Білоус",
+    "specialty": "Нейрохірург",
+    "email": "v.bilous@gmail.com",
+    "phone": "+380501234020",
+    "room": "120",
+    "notes": "Нейрохірургічні операції"
+  },
+  {
+    "id": "d021",
+    "fullName": "Галина Терещенко",
+    "specialty": "Фізіотерапевт",
+    "email": "h.tereshchenko@med.com",
+    "phone": "+380501234021",
+    "room": "121",
+    "notes": "Фізіотерапевтичні процедури"
+  },
+  {
+    "id": "d022",
+    "fullName": "Михайло Литвиненко",
+    "specialty": "Стоматолог",
+    "email": "m.lytvynenko@hospital.ua",
+    "phone": "+380501234022",
+    "room": "122",
+    "notes": "Стоматологічні послуги"
+  },
+  {
+    "id": "d023",
+    "fullName": "Лариса Грищенко",
+    "specialty": "Логопед",
+    "email": "l.hryshchenko@gmail.com",
+    "phone": "+380501234023",
+    "room": "123",
+    "notes": "Логопедичні консультації"
+  }
+]
