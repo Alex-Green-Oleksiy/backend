@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Смартфон Apple iPhone 14 Pro 128GB Deep Purple",
+        "price": 42999,
+        "imageUrl": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 2,
+        "name": "Смартфон Samsung Galaxy S23 Ultra 8/256GB Phantom Black",
+        "price": 44999,
+        "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 3,
+        "name": "Смартфон Xiaomi 13 12/256GB Black",
+        "price": 29999,
+        "imageUrl": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 4,
+        "name": "Ноутбук Apple MacBook Air 13 M2 2022",
+        "price": 49999,
+        "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 5,
+        "name": "Ноутбук Apple MacBook Pro 14 M1 Pro 2021",
+        "price": 79999,
+        "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 6,
+        "name": "Ноутбук ASUS ZenBook 14 OLED UM3402YA",
+        "price": 34999,
+        "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 7,
+        "name": "Телевізор Samsung QLED 4K QE55Q60C 55",
+        "price": 24999,
+        "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 8,
+        "name": "Телевізор LG OLED C3 48 4K",
+        "price": 39999,
+        "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 9,
+        "name": "Телевізор Sony Bravia XR A80K 65 4K OLED",
+        "price": 59999,
+        "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 10,
+        "name": "Монітор Samsung Odyssey G5 27 Gaming",
+        "price": 8999,
+        "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 11,
+        "name": "Монітор LG UltraWide 34WN750-B 34",
+        "price": 14999,
+        "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&h=500&fit=crop"
+    },
+    {
+        "id": 12,
+        "name": "Монітор Dell S2421HS 24 Full HD",
+        "price": 7999,
+        "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&h=500&fit=crop"
+    }
+]
