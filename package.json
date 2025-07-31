@@ -4,10 +4,10 @@
   "description": "Monorepo for backend projects",
   "main": "index.js",
   "scripts": {
-    "start": "cd projects/backend/posts-backend && npm start",
-    "start:teachers": "cd projects/backend/teachers_backend && npm start",
-    "install-deps": "cd projects/backend/posts-backend && npm install",
-    "install-deps:teachers": "cd projects/backend/teachers_backend && npm install"
+    "start": "cd projects/backend/teachers_backend && npm start",
+    "start:posts": "cd projects/backend/posts-backend && npm start",
+    "install-deps": "cd projects/backend/teachers_backend && npm install",
+    "install-deps:posts": "cd projects/backend/posts-backend && npm install"
   },
   "keywords": ["monorepo", "backend", "api"],
   "author": "",
