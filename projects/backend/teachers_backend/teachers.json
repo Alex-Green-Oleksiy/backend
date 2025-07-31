@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Олена Коваль1",
+        "subject": "Математика",
+        "photo": "https://cdn-icons-png.flaticon.com/512/168/168723.png"
+    },
+    {
+        "id": "2",
+        "name": "Іван Петренко",
+        "subject": "Фізика",
+        "photo": "https://cdn-icons-png.flaticon.com/512/168/168724.png"
+    },
+    {
+        "id": "3",
+        "name": "Наталія Сидорова",
+        "subject": "Історія",
+        "photo": "https://cdn-icons-png.flaticon.com/512/168/168725.png"
+    },
+    {
+        "id": 1751561797125,
+        "name": "Баба Галя",
+        "subject": "JS React Vue",
+        "photo": "https://api.dicebear.com/7.x/avataaars/svg"
+    }
+]
