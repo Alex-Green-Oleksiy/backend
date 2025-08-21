@@ -73,7 +73,8 @@ router.post('/refresh', async (req, res) => {
   const token = req.cookies.refreshToken
   if (!token) return res.status(401).json({ error: 'Unauthorized', message: 'Missing refresh token' })
   try {
-    const payload = jwt.verify(token, process.env.JWT_REFRESH_SECRET)
+    // Important: verify with the same secret constant used for signing
+    const payload = jwt.verify(token, JWT_REFRESH_SECRET)
     const users = await readJSON(usersFile)
     const user = users.find((u) => u.id == payload.id)
     if (!user) return res.status(401).json({ error: 'Unauthorized', message: 'User not found' })
