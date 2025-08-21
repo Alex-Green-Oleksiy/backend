@@ -2,10 +2,12 @@ import express from 'express'
 import { readJSON, writeJSON } from '../utils/fileDb.js'
 import { requireAuth } from '../middleware/auth.js'
 import { v4 as uuid } from 'uuid'
+import path from 'path'
 
 const router = express.Router()
-const file = './data/comments.json'
-const fileUsers = './data/users.json'
+const dataDir = path.resolve(process.env.DATA_DIR || './data')
+const file = path.join(dataDir, 'comments.json')
+const fileUsers = path.join(dataDir, 'users.json')
 
 router.get('/', async (req, res) => {
   const { postId } = req.query

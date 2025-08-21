@@ -7,7 +7,8 @@ import path from 'path'
 import { v4 as uuid } from 'uuid'
 
 const router = express.Router()
-const file = './data/posts.json'
+const dataDir = path.resolve(process.env.DATA_DIR || './data')
+const file = path.join(dataDir, 'posts.json')
 
 // router.get('/', async (req, res) => {
 //   const posts = await readJSON(file)
@@ -18,7 +19,7 @@ router.get('/', async (req, res) => {
   const { page = 1, limit = 10 } = req.query
 
   const posts = await readJSON(file)
-  const users = await readJSON('./data/users.json')
+  const users = await readJSON(path.join(dataDir, 'users.json'))
   const pageNum = Math.max(1, parseInt(page, 10))
   const limitNum = Math.max(1, parseInt(limit, 10))
 
@@ -91,7 +92,7 @@ router.delete('/:id', requireAuth, async (req, res) => {
   await writeJSON(file, updatedPosts)
 
   // Видаляємо всі коментарі до цього поста
-  const commentsFile = path.resolve('./data/comments.json')
+  const commentsFile = path.join(dataDir, 'comments.json')
   let comments = await readJSON(commentsFile)
   comments = comments.filter((c) => c.postId != postId)
   await writeJSON(commentsFile, comments)

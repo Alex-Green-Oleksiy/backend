@@ -1,9 +1,11 @@
 import express from 'express'
 import { readJSON, writeJSON } from '../utils/fileDb.js'
 import { requireAuth, requireRole } from '../middleware/auth.js'
+import path from 'path'
 
 const router = express.Router()
-const file = './data/users.json'
+const dataDir = path.resolve(process.env.DATA_DIR || './data')
+const file = path.join(dataDir, 'users.json')
 
 router.get('/all', requireAuth, requireRole('admin'), async (req, res) => {
   const users = await readJSON(file)

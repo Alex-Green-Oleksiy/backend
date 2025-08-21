@@ -12,21 +12,28 @@ const router = express.Router()
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const usersFile = path.join(__dirname, '..', 'data', 'users.json')
+const dataDir = process.env.DATA_DIR || path.join(__dirname, '..', 'data')
+const usersFile = path.join(dataDir, 'users.json')
+
+// Fallbacks for training/demo environments (so app can run without ENV)
+const JWT_SECRET = process.env.JWT_SECRET || 'devsecret123'
+const JWT_REFRESH_SECRET = process.env.JWT_REFRESH_SECRET || 'devrefresh123'
+const ACCESS_EXPIRES = process.env.ACCESS_EXPIRES || '15m'
+const REFRESH_EXPIRES = process.env.REFRESH_EXPIRES || '7d'
 
 // (DEV helpers were removed)
 
 function generateAccessToken(user) {
   return jwt.sign(
     { id: user.id, role: user.role, email: user.email },
-    process.env.JWT_SECRET,
-    { expiresIn: process.env.ACCESS_EXPIRES }
+    JWT_SECRET,
+    { expiresIn: ACCESS_EXPIRES }
   )
 }
 
 function generateRefreshToken(user) {
-  return jwt.sign({ id: user.id }, process.env.JWT_REFRESH_SECRET, {
-    expiresIn: process.env.REFRESH_EXPIRES,
+  return jwt.sign({ id: user.id }, JWT_REFRESH_SECRET, {
+    expiresIn: REFRESH_EXPIRES,
   })
 }
 
@@ -50,8 +57,8 @@ router.post('/login', async (req, res) => {
   res
     .cookie('refreshToken', refreshToken, {
       httpOnly: true,
-      secure: false, // у проді — true
-      sameSite: 'strict',
+      secure: String(process.env.COOKIE_SECURE).toLowerCase() === 'true',
+      sameSite: process.env.COOKIE_SAMESITE || 'lax',
       maxAge: 7 * 24 * 60 * 60 * 1000,
     })
     .json({

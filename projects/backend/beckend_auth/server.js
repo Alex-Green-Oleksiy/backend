@@ -13,13 +13,22 @@ dotenv.config()
 
 const app = express()
 
-// app.use(cors({ origin: 'http://localhost:5173/', credentials: true }))
-app.use(
-  cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'], // ✅ фронтенд (Vite)
-    credentials: true, // ✅ дозвіл надсилати cookie
-  })
-)
+// CORS: allow from env (comma-separated). If not set, reflect request origin.
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || '')
+  .split(',')
+  .map((s) => s.trim())
+  .filter(Boolean)
+
+const corsOptions = {
+  origin: allowedOrigins.length ? allowedOrigins : true,
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Authorization', 'Content-Type'],
+}
+
+app.use(cors(corsOptions))
+// Handle preflight for all routes
+app.options('*', cors(corsOptions))
 
 app.use(express.json())
 app.use(cookieParser())
@@ -30,4 +39,5 @@ app.use('/api/users', userRoutes)
 app.use('/api/posts', postRoutes)
 app.use('/api/comments', commentRoutes)
 
-app.listen(4000, () => console.log('API on http://localhost:4000'))
+const PORT = process.env.PORT || 4000
+app.listen(PORT, () => console.log(`API listening on port ${PORT}`))
