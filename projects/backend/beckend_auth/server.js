@@ -39,5 +39,5 @@ app.use('/api/users', userRoutes)
 app.use('/api/posts', postRoutes)
 app.use('/api/comments', commentRoutes)
 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 4001
 app.listen(PORT, () => console.log(`API listening on port ${PORT}`))
